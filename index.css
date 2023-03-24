@@ -1,3 +1,106 @@
+body{
+    background-color: #171c28;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* navbar */
+
 #nav-menu{
-    position: fixed;
+    position: sticky;
+    display: flex;
+    margin: auto;
+    /* border: 1px solid violet; */
+    align-items: center;
+    justify-content: space-between;
+    width: 97%;
+}
+#nav-menu p{
+    font-size: 22px;
+}
+#nav-main{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 55%;
+    justify-content: space-between;
+}
+
+/* home section */
+
+.home{
+    /* border: 1px solid white; */
+    display: flex;
+    width: 97%;
+    margin: auto;
+    justify-content: space-around;
+    margin-top: 180px;
+    align-items: center;
+}
+.home>div>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 250px;
+}
+.home>div>div>div img{
+    width: 15px;
+    height: 15px;
+}
+.home>div>div>div{
+    padding: 6px;
+    background-color: #fe1c5e;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.home>div>div>img{
+    width: 40px;
+    height: 40px;
+}
+
+/* about me section */
+
+.aboutDiv{
+    /* border:1px solid greenyellow; */
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 200px;
+}
+.aboutDiv>div img{
+    width: 75%;
+    display: block;
+    margin: auto;
+}
+.aboutDiv>div{
+    /* border: 1px solid purple; */
+    width: 25%;
+}
+
+/* my skills section */
+
+.skills{
+    margin-top: 200px;
+    text-align: center;
+}
+
+#skills-div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 97%;
+    margin: auto;
+    gap:25px;
+    margin-top: 60px;
+}
+#skills-div>div{
+    margin: auto;
+}
+#skills-div p{
+    text-align: center;
+}
+#skills-div img{
+    width: 130px;
+    height: 130px;
 }
