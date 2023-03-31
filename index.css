@@ -104,3 +104,26 @@ body{
     width: 130px;
     height: 130px;
 }
+
+/* projects section */
+
+#projects-div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 97%;
+    margin: auto;
+    gap:25px;
+    margin-top: 60px;
+}
+
+.projects-card>img{
+    width: 100%;
+}
+.project-tech-stack img{
+    width: 50px;
+    height: 50px;
+}
+.project-github-link{
+    width: 50px;
+    height: 50px;
+}
