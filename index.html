@@ -91,7 +91,7 @@
     <h1 class="nav-link projects" id="projects-head">My Projects</h1>
     <div id="projects-div" class="nav-link projects">
 
-        <div class="projects-card">
+        <div class="project-card">
             <img src="./Images/urbanClothing.png" alt="">
             <h3 class="project-title">Burberry Clone</h3>
             <p class="project-description">Burberry is a luxury fashion e-commerce website.</p>
@@ -129,7 +129,7 @@
             </div>
         </div>
 
-        <div class="projects-card">
+        <div class="project-card">
             <img src="./Images/bedBath.png" alt="">
             <h3 class="project-title">Bed Bath & Beyond Clone</h3>
             <p class="project-description">Bed Bath & Beyond is an e-commerce website which caters to
@@ -156,7 +156,7 @@
             </div>
         </div>
 
-        <div class="projects-card">
+        <div class="project-card">
             <img src="./Images/foodParadise.png" alt="">
             <h3 class="project-title">KindMeals.my Clone</h3>
             <p class="project-description">KindMeals.my offers a structured, effective way for restaurants to promote themselves, with a proper showcase of their shop, menu, deals and outlets.</p>
@@ -182,6 +182,71 @@
             </div>
         </div>
 
+    </div>
+
+    <!-- Github Calendar and stats-->
+    <section class="github-calendar" id="services">
+        <div class="max-width">
+          <h1 class="title">GitHub <span>Statistics</span></h1>
+          <script
+            class="react-activity-calendar"
+            src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
+          ></script>
+  
+          <link
+            class="react-activity-calendar"
+            rel="stylesheet"
+            href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+          />
+  
+          <div
+            style="width: 100%; border: none; margin: auto"
+            class="calendar"
+          ></div>
+          <br />
+          <div class="github-cards">
+            <div class="github-images">
+              <img
+                id="github-streak-stats"
+                src="https://github-readme-streak-stats.herokuapp.com/?user=gouravsahuu&theme=radical&hide_border=false"
+                alt=""
+              />
+            </div>
+            <div class="github-images">
+              <img
+                id="github-stats-card"
+                src="https://github-readme-stats.vercel.app/api?username=gouravsahuu&theme=radical&hide_border=false&include_all_commits=true&count_private=true"
+                alt=""
+              />
+            </div>
+            <div class="github-images">
+                <img
+                  id="github-top-langs"
+                  src="https://github-readme-stats.vercel.app/api/top-langs/?username=gouravsahuu&theme=radical&hide_border=false&include_all_commits=true&count_private=true&layout=compact"
+                  alt=""
+                />
+              </div>
+          </div>
+          <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+          <script>
+            GitHubCalendar(".calendar", "gouravsahuu", {
+              responsive: true,
+              global_stats: false,
+            });
+          </script>
+        </div>
+    </section>
+    <!-- contact me section -->
+    <div class="nav-link contact">
+        <h1>Contact Me</h1>
+        <p id="contact-phone">Contact Number :- +91 7974792915</p>
+        <p id="contact-email">Email Address :- gsgourav.sahu@gmail.com</p>
+        <p>Address :- Durg, Chhattisgarh 491001</p>
+        <div>
+            <img id="contact-github" src="./Images/github-logo.png" alt="">
+            <img id="contact-linkedin" src="./Images/linked-in.png" alt="">
+            <img  src="./Images/mail.png" alt="">
+        </div>
     </div>
 </body>
 <script src="./index.js"></script>

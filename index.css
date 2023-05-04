@@ -130,8 +130,8 @@ body{
     /* border: 1px solid rebeccapurple; */
     display: flex;
     align-items: center;
-    width: 65%;
-    justify-content: space-evenly;
+    width: 70%;
+    /* justify-content: space-evenly; */
 }
 .project-tech-stack>div>p{
     font-size: 12px;
@@ -150,7 +150,7 @@ body{
     border-radius: 5px;
     border: none;
 }
-.projects-card>img{
+.project-card>img{
     width: 100%;
 }
 .project-tech-stack img{
@@ -160,4 +160,38 @@ body{
 .project-github-link{
     width: 30px;
     height: 30px;
+}
+.project-tech-stack>div{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* github calendar and stats */
+
+.max-width>h1{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.github-images>img{
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/* contact me section */
+
+.contact h1,.contact p{
+    text-align: center;
+}
+.contact>div{
+    width: 10%;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+}
+.contact>div img{
+    width: 40px;
+    height: 40px;
 }
