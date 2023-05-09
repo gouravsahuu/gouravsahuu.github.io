@@ -5,6 +5,7 @@ const about = document.getElementById("about");
 const skills = document.getElementById("skills");
 const projects = document.getElementById("projects");
 const contact = document.getElementById("contact");
+const backToTop = document.getElementById("footerBtn");
 
 resume1.addEventListener("click",() => {
     const href = this.getAttribute('href');
@@ -35,3 +36,7 @@ contact.addEventListener("click",() => {
     const element = document.getElementsByClassName("contact")[0];
     element.scrollIntoView({ behavior: 'smooth' });
 })
+footerBtn.addEventListener("click",() => {
+    const element = document.getElementsByClassName("home")[0];
+    element.scrollIntoView({ behavior: 'smooth' });
+  })

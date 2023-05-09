@@ -224,14 +224,25 @@ body{
 }
 
 #footer{
+    display: flex;
     width: 90%;
     margin: auto;
     margin-top: 30px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .resume-btn{
     text-decoration: none;
     color: white;
+}
+
+#footerBtn{
+    background-color: #fe1c5e;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
 }
 
 /* responsiveness */
