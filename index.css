@@ -14,15 +14,27 @@ body{
     align-items: center;
     justify-content: space-between;
     width: 97%;
+    top:0;
+    background-color: #171c28;
 }
 #nav-menu p{
     font-size: 22px;
+}
+#nav-menu p:nth-child(6){
+    font-size: 20px;
 }
 #nav-main{
     display: flex;
     /* border: 1px solid red; */
     width: 55%;
     justify-content: space-between;
+}
+#hrline{
+    position: sticky;
+    height: 2px;
+    background-color: #fe1c5e;
+    border: none;
+    top:70px;
 }
 
 /* home section */
@@ -57,6 +69,17 @@ body{
     width: 40px;
     height: 40px;
 }
+.resumeButton{
+    padding: 4px;
+    background-color: #fe1c5e;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.resumeButton img{
+    width: 15px;
+    height: 15px;
+}
 
 /* about me section */
 
@@ -89,7 +112,7 @@ body{
 #skills-div{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    width: 97%;
+    width: 90%;
     margin: auto;
     gap:25px;
     margin-top: 60px;
@@ -165,6 +188,10 @@ body{
     padding-left: 5px;
     padding-right: 5px;
 }
+.project-dep{
+    text-decoration: none;
+    color: white;
+}
 
 /* github calendar and stats */
 
@@ -192,6 +219,48 @@ body{
     justify-content: space-evenly;
 }
 .contact>div img{
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
+}
+
+#footer{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.resume-btn{
+    text-decoration: none;
+    color: white;
+}
+
+/* responsiveness */
+
+@media screen and (max-width:800px) {
+    #projects-div{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #skills-div{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .aboutDiv{
+        display: block;
+    }
+    .home{
+        display: block;
+    }
+}
+@media screen and (max-width:400) {
+    #projects-div{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #skills-div{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .aboutDiv{
+        display: block;
+    }
+    .home{
+        display: block;
+    }
 }

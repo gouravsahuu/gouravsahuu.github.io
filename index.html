@@ -16,10 +16,11 @@
             <p id="skills">Skills</p>
             <p id="projects">Project</p>
             <p id="contact">Contact</p>
-            <p id="resume">Resume</p>
+            <p id="resume-link-1" class="resumeButton"><a class="resume-btn" href="https://drive.google.com/file/d/1EPXtSpyvLBCpQ74wA3rXR4BSPIutNWof/view?usp=share_link" download>Resume &nbsp;<span><img src="./Images/download-icon.png" alt=""></a></span></a></p>
         </div>
     </nav>
-    <div class="nav-link home">
+    <hr id="hrline">
+    <div class="nav-link home" id="home-div">
         <div>
             <h1>Hi, &#128075;</h1>
             <h1>I'm Gourav</h1>
@@ -28,21 +29,26 @@
                 <img src="./Images/github-logo.png" alt="">
                 <img src="./Images/linked-in.png" alt="">
                 <img src="./Images/mail.png" alt="">
-                <div>Resume &nbsp;<span><img src="./Images/download-icon.png" alt=""></span></div>
+                <div id="resume-link-2"><a class="resume-btn" href="https://drive.google.com/file/d/1EPXtSpyvLBCpQ74wA3rXR4BSPIutNWof/view?usp=share_link" download>Resume &nbsp;<span><img src="./Images/download-icon.png" alt=""></a></span></div>
             </div>
         </div>
         <div>
             <img src="./Images/coding-man.jpg" alt="">
         </div>
     </div>
-    <div class="nav-link about aboutDiv">
-        <div>
+    <div class="nav-link about aboutDiv" id="about-div">
+        <div class="nav-link about">
             <img src="./Images/me.jpg" alt="" class="home-img">
         </div>
         <div>
             <h1>About Me</h1>
             <h3 id="user-detail-name">I'm Gourav Sahu</h3>
-            <p id="user-detail-intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus sapiente voluptatum perferendis mollitia, quae placeat atque nesciunt accusantium rerum consequuntur est officiis vero corrupti ullam, voluptatibus impedit, cum facilis veniam?</p>
+            <p id="user-detail-intro">A passionate web developer, proficient in developing
+                scalable web applications and working across
+                frontend as well as backend. Seeking for an
+                opportunity to continue to grow my skill set while
+                making significant contribution to the growth of the
+                organization.</p>
         </div>
     </div>
     <!-- skills section -->
@@ -123,8 +129,8 @@
                     </div>
                 </div>
                 <div>
-                    <img src="./Images/github-logo.png" alt="" class="project-github-link">
-                    <div class="project-deployed-link"> Live </div>
+                    <a href="https://github.com/gouravsahuu/empty-chicken-6143" target="_blank"><img src="./Images/github-logo.png" alt="" class="project-github-link"></a>
+                    <div class="project-deployed-link"><a href="https://fluffy-kelpie-9b2a37.netlify.app/" target="_blank" class="project-dep"> Live </a></div>
                 </div>
             </div>
         </div>
@@ -150,8 +156,8 @@
                     </div>
                 </div>
                 <div>
-                    <img src="./Images/github-logo.png" alt="" class="project-github-link">
-                    <div class="project-deployed-link"> Live </div>
+                    <a href="https://github.com/gouravsahuu/pacific-clam-4161" target="_blank"><img src="./Images/github-logo.png" alt="" class="project-github-link"></a>
+                    <div class="project-deployed-link"><a href="https://reliable-faloodeh-c84a72.netlify.app/" target="_blank" class="project-dep"> Live </a> </div>
                 </div>
             </div>
         </div>
@@ -176,8 +182,8 @@
                     </div>
                 </div>
                 <div>
-                    <img src="./Images/github-logo.png" alt="" class="project-github-link">
-                    <div class="project-deployed-link"> Live </div>
+                    <a href="https://github.com/gouravsahuu/cogent-spark-720" target="_blank"><img src="./Images/github-logo.png" alt="" class="project-github-link"></a>
+                    <div class="project-deployed-link"><a href="https://lighthearted-bunny-ec746a.netlify.app/" target="_blank" class="project-dep"> Live </a></div>
                 </div>
             </div>
         </div>
@@ -247,6 +253,9 @@
             <img id="contact-linkedin" src="./Images/linked-in.png" alt="">
             <img  src="./Images/mail.png" alt="">
         </div>
+    </div>
+    <div id="footer">
+        <p>Created by Gourav Sahu.</p>
     </div>
 </body>
 <script src="./index.js"></script>
