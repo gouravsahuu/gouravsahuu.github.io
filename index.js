@@ -1,5 +1,5 @@
-let resume1 = document.getElementById("resume-link-1");
-let resume2 = document.getElementById("resume-link-2");
+let resume1 = document.getElementById("resume-button-1");
+let resume2 = document.getElementById("resume-button-2");
 const home = document.getElementById("home");
 const about = document.getElementById("about");
 const skills = document.getElementById("skills");
