@@ -76,13 +76,3 @@ document.querySelectorAll(".home-linkedIn").forEach(n => n.addEventListener("cli
 document.querySelectorAll(".home-mail").forEach(n => n.addEventListener("click", () => {
     window.open("mailto:gsgourav.sahu@gmail.com");
 }))
-
-// about section typing effect
-
-const typed = new Typed('.auto-type', {
-    strings: ['Full Stack Web Developer', 'Backend Developer', 'Frontend Developer'],
-    typeSpeed: 100,
-    backSpeed: 100,
-    backdelay: 1000,
-    loop: true
-  })
