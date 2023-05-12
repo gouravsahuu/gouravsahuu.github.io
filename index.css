@@ -45,9 +45,13 @@ body{
     display: flex;
     width: 97%;
     margin: auto;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-top: 180px;
     align-items: center;
+}
+.home>div{
+    /* border: 1px solid red; */
+    width: 30%;
 }
 .home>div>p{
     font-size: 32px;
@@ -106,6 +110,13 @@ body{
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     background-color: white;
+}
+
+/* auto type */
+
+.auto-type{
+    /* border: 1px solid red; */
+    color:#fe1c5e;
 }
 
 /* about me section */
