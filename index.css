@@ -3,7 +3,9 @@ body{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+.pink-text{
+    color: #fe1c5e;
+}
 /* navbar */
 
 #nav-menu{
@@ -147,7 +149,7 @@ body{
     text-align: center;
 }
 
-#skills-div{
+.skills{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: 90%;
@@ -156,13 +158,13 @@ body{
     margin-top: 60px;
     padding: 20px;
 }
-#skills-div>div{
+.skills>div{
     margin: auto;
 }
-#skills-div p{
+.skills>div p{
     text-align: center;
 }
-#skills-div img{
+.skills>div img{
     width: 130px;
     height: 130px;
 }
