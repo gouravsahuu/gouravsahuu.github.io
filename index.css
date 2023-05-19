@@ -396,7 +396,7 @@ body{
     #projects-div{
         grid-template-columns: repeat(1, 1fr);
     }
-    #skills-div{
+    .skills{
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -434,7 +434,7 @@ body{
     .aboutDiv>div:nth-child(2){
         font-size: 14px;
     }
-    #skills-div img{
+    .skills>div img{
         width: 100px;
         height: 100px;
     }
@@ -443,7 +443,7 @@ body{
     #projects-div{
         grid-template-columns: repeat(1, 1fr);
     }
-    #skills-div{
+    .skills{
         grid-template-columns: repeat(2, 1fr);
     }
     .home>div>div{
